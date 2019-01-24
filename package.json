@@ -1,7 +1,7 @@
 {
   "name": "sample-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hands on project involving dialing into an API and presenting a list of pictures from it.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open"
@@ -15,8 +15,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack": "^2.6.1"
   },
   "dependencies": {
     "react": "^15.6.1",
@@ -24,7 +23,8 @@
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.1",
     "redux": "^3.7.0",
-    "reselect": "^3.0.1"
+    "reselect": "^3.0.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "babel": {
     "presets": [
@@ -37,5 +37,13 @@
       "stage-2",
       "react"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinedsel/react-photo-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinedsel/react-photo-api/issues"
+  },
+  "homepage": "https://github.com/vinedsel/react-photo-api#readme"
 }
